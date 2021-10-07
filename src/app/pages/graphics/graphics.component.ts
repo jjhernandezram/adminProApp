@@ -1,16 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { sum } from '@taiga-ui/cdk';
 
 @Component({
   selector: 'app-graphics',
   templateUrl: './graphics.component.html',
-  styles: [
-  ]
+  styleUrls: [],
 })
-export class GraphicsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class GraphicsComponent {}
