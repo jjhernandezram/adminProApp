@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './graphics.component.html',
   styleUrls: [],
 })
-export class GraphicsComponent {}
+export class GraphicsComponent {
+  labelsGraphicA = ['Download', 'In-Store', 'Mail-Order'];
+  dataGraphicA = [[350, 450, 100]];
+
+  labelsGraphicB = ['Products', 'Services', 'Brands'];
+  dataGraphicB = [[110, 400, 250]];
+}

@@ -1,16 +1,19 @@
+// Angular Modules
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { SharedModule } from '../shared/shared.module';
+// Custom Modules
+import { ComponentsModule } from '../components/components.module';
 import { PagesRoutingModule } from './pages-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
+// Components
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { MainComponent } from './main.component';
 import { ProgressComponent } from './progress/progress.component';
-import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   declarations: [
