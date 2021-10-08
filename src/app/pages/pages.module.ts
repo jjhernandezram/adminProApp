@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { MainComponent } from './main.component';
 import { ProgressComponent } from './progress/progress.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProgressComponent } from './progress/progress.component';
     GraphicsComponent,
     MainComponent,
     ProgressComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -35,6 +37,7 @@ import { ProgressComponent } from './progress/progress.component';
     GraphicsComponent,
     MainComponent,
     ProgressComponent,
+    AccountSettingsComponent,
   ],
 })
 export class PagesModule {}

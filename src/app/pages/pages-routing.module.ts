@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { MainComponent } from './main.component';
@@ -20,8 +21,12 @@ const routes: Routes = [
         component: ProgressComponent,
       },
       {
-        path: 'graphic1',
+        path: 'charts',
         component: GraphicsComponent,
+      },
+      {
+        path: 'account-settings',
+        component: AccountSettingsComponent,
       },
     ],
   },
