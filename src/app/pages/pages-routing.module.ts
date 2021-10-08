@@ -6,6 +6,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { MainComponent } from './main.component';
 import { ProgressComponent } from './progress/progress.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 const routes: Routes = [
   {
@@ -19,14 +21,27 @@ const routes: Routes = [
       {
         path: 'progress',
         component: ProgressComponent,
+        data: { title: 'Progress' },
       },
       {
         path: 'charts',
         component: GraphicsComponent,
+        data: { title: 'Charts' },
       },
       {
         path: 'account-settings',
         component: AccountSettingsComponent,
+        data: { title: 'Account settings' },
+      },
+      {
+        path: 'promises',
+        component: PromisesComponent,
+        data: { title: 'Promises' },
+      },
+      {
+        path: 'rxjs',
+        component: RxjsComponent,
+        data: { title: 'RxJs' },
       },
     ],
   },
