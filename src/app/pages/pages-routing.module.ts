@@ -17,11 +17,12 @@ const routes: Routes = [
       {
         path: '',
         component: DashboardComponent,
+        data: { title: 'Dashboard' },
       },
       {
         path: 'progress',
         component: ProgressComponent,
-        data: { title: 'Progress' },
+        data: { title: 'Progress bars' },
       },
       {
         path: 'charts',
